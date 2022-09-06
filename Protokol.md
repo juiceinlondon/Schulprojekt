@@ -24,3 +24,7 @@ Das erwähnte Problem vom 24.08.2022 konnte heute, dank der Hilfe von Herrn Buhl
 Im Folgenden ist nur der momentane Code des Fahrzeuges zu sehen.
 ![Screenshot (1)](https://user-images.githubusercontent.com/111385267/188615644-b1e2afcb-710c-4e4e-b4cb-c29a27c440a2.png)
 Den Rest der Stunde widmeten wir dem zufälligen Einfügen von anderen Fahrzeugen. Kollidiert der Spieler während des Spielens mit ihnen, dann soll das Level scheitern. Dies setzten wir uns als Ziel für die nächste Woche. 
+
+06.09.2022
+
+Da Joel heute krank war, arbeitete ich alleine weiter. Wie letzte Woche geplant, fügte ich die Kollision mit anderen Objekten ein.
