@@ -1,3 +1,4 @@
+
 # Schulprojekt
 
 17.08.2022
@@ -20,4 +21,6 @@ Wie in der letzten Woche besprochen war es heute unser Ziel, die Spawn- und Ziel
 31.08.2022 
 
 Das erwähnte Problem vom 24.08.2022 konnte heute, dank der Hilfe von Herrn Buhl, gelöst werden. Nachdem Herr Buhl sich unsere Bewegungselemente angeschaut hatte, war er der Ansicht, dass man die jeweiligen Codes besser schreiben könnte. Er veränderte sie zu unserem ursprünglichen Code. Hier erklärten wir, dass wir dabei ebenfalls schwerwiegende Probleme mit der Bewegung hatten, weshalb wir den Code wieder änderten. Herr Buhl erkannte, dass das Bild des von uns gewählten Actors um 90° nach rechts gedreht war, wodurch die Probleme während der Bewegung entstanden. Nun mussten wir das Bild lediglich im Editor um 90° nach links drehen. 
+Im Folgenden ist nur der momentane Code des Fahrzeuges zu sehen.
+![Screenshot (1)](https://user-images.githubusercontent.com/111385267/188615644-b1e2afcb-710c-4e4e-b4cb-c29a27c440a2.png)
 Den Rest der Stunde widmeten wir dem zufälligen Einfügen von anderen Fahrzeugen. Kollidiert der Spieler während des Spielens mit ihnen, dann soll das Level scheitern. Dies setzten wir uns als Ziel für die nächste Woche. 
