@@ -27,4 +27,4 @@ Den Rest der Stunde widmeten wir dem zufälligen Einfügen von anderen Fahrzeuge
 
 06.09.2022
 
-Da Joel heute krank war, arbeitete ich alleine weiter. Wie letzte Woche geplant, fügte ich die Kollision mit anderen Objekten ein.
+Da Joel heute krank war, arbeitete ich alleine weiter. Wie letzte Woche geplant, fügte ich die Kollision mit anderen Objekten ein, was direkt funktionierte. Zudem bearbeitete ich das Aussehen des Fahrzeuges so, dass es in unsere Welt passt. Den Rest der Stunde habe ich die bisherigen Protokolle überarbeitet und mit Bildern unseres Codes unterlegt.
