@@ -28,3 +28,7 @@ Den Rest der Stunde widmeten wir dem zufälligen Einfügen von anderen Fahrzeuge
 06.09.2022
 
 Da Joel heute krank war, arbeitete ich alleine weiter. Wie letzte Woche geplant, fügte ich die Kollision mit anderen Objekten ein, was direkt funktionierte. Zudem bearbeitete ich das Aussehen des Fahrzeuges so, dass es in unsere Welt passt. Den Rest der Stunde habe ich die bisherigen Protokolle überarbeitet und mit Bildern unseres Codes unterlegt.
+
+07.09.2022
+
+Auch heute war Joel krank, somit fuhr ich alleine mit der Arbeit fort. Das heutige Ziel war es, dass sich das andere Fahrzeug zufällig bewegen kann. Für diese Bewegung probierte ich verschiedene Methoden aus. Schließlich programmierte ich, dass sich dieses Fahrzeug dauerhaft um 4 Einheiten nach vorne bewegt. Gleichzeitig läuft im Hintergrund ein Zahlengenerator, der eine Zahl zwischen 1 und 100 generiert. Ist diese Zahl kleiner als 20, dreht sich das Fahrzeug eine Eihneit nach links. Ist die Zahl größer als 80, dreht es sich nach links. Andernfalls bewegt sich das Fahrzeug lediglich geradeaus weiter. Hierbei muss allerdings überarbeitet werden, dass sich das Fahrzeug nach einiger Zeit am Rand der Welt "festfährt". Für das vorrängige Ziel, die Schwierigkeit des Levels zu erhöhen, ist die bisherige Funktionsweise jedoch ausreichend. 
