@@ -32,3 +32,11 @@ Da Joel heute krank war, arbeitete ich alleine weiter. Wie letzte Woche geplant,
 07.09.2022
 
 Auch heute war Joel krank, somit fuhr ich alleine mit der Arbeit fort. Das heutige Ziel war es, dass sich das andere Fahrzeug zufällig bewegen kann. Für diese Bewegung probierte ich verschiedene Methoden aus. Schließlich programmierte ich, dass sich dieses Fahrzeug dauerhaft um 4 Einheiten nach vorne bewegt. Gleichzeitig läuft im Hintergrund ein Zahlengenerator, der eine Zahl zwischen 1 und 100 generiert. Ist diese Zahl kleiner als 20, dreht sich das Fahrzeug eine Eihneit nach links. Ist die Zahl größer als 80, dreht es sich nach links. Andernfalls bewegt sich das Fahrzeug lediglich geradeaus weiter. Hierbei muss allerdings überarbeitet werden, dass sich das Fahrzeug nach einiger Zeit am Rand der Welt "festfährt". Für das vorrängige Ziel, die Schwierigkeit des Levels zu erhöhen, ist die bisherige Funktionsweise jedoch ausreichend. 
+
+13.09.2022
+
+Heute war Lasse krank. Somit fuhr ich alleine fort und verwarf die Idee von Lasse, dass das "random" generierte Auto sich anhand einer zufälligen Zahl fortbewegt. Nun habe ich stattdessen Punkte gesetzt, die das Auto abfährt und sich an jeweiligen Ecken dreht. Dadurch fährt das Auto zwar nicht mehr zufällsmäßig. Es sieht aber flüßiger und realistischer aus. Außerdem habe ich die Geschwindigkeit verringert und dem Auto hinzugefügt, dass es, wenn es an das Ende der Welt stößt eine 90°-Drehung macht. Dies dürfte aber nicht passieren, da das Auto ja einen vorbestimmten Weg abfährt.
+
+14.09.2022
+
+Heute war Lasse leider wieder krank. Deshalb habe ich mich daran gemacht erstmal einen Checkpoint, also einen Bereich, wo man das Auto parken muss zu erstellen. Dieser Checkpoint sollte außerdem zufällig generiert werden innerhalb bestimmter Koordinaten. Dies habe ich mit Hilfe von Herrn Buhl entwickelt und konnte so die Grundlage dafür schaffen nun den Checkpoint zu nutzen, dafür dass man "gewonnen" hat, wenn man einparkt. Dies habe ich gemacht, indem ich die Koordinaten von dem Checkpoint in unserer Actor-Klasse abgefragt habe. Dann habe ich auch noch den Grad der Drehung abgefragt vom Actor, damit man mit einer 5°-Abweichung einparken darf.
