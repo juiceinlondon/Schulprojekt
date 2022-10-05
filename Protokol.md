@@ -40,3 +40,15 @@ Heute war Lasse krank. Somit fuhr ich alleine fort und verwarf die Idee von Lass
 14.09.2022
 
 Heute war Lasse leider wieder krank. Deshalb habe ich mich daran gemacht erstmal einen Checkpoint, also einen Bereich, wo man das Auto parken muss zu erstellen. Dieser Checkpoint sollte außerdem zufällig generiert werden innerhalb bestimmter Koordinaten. Dies habe ich mit Hilfe von Herrn Buhl entwickelt und konnte so die Grundlage dafür schaffen nun den Checkpoint zu nutzen, dafür dass man "gewonnen" hat, wenn man einparkt. Dies habe ich gemacht, indem ich die Koordinaten von dem Checkpoint in unserer Actor-Klasse abgefragt habe. Dann habe ich auch noch den Grad der Drehung abgefragt vom Actor, damit man mit einer 5°-Abweichung einparken darf.
+
+27.09.2022
+
+
+
+28.09.2022
+
+In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das Spiel hinzuzufügen. Dies soll ein Abschleppwagen sein. Er spawnt in der Welt dann, wenn der Spieler, mit seinem Krankenwagen, mit dem grünen Fahrzeug kollidiert. Anschließend soll er sich in die Richtung des Unfalls drehen und dort hin bewegen. Mit der Umsetzung dieser Idee hatten wir allerdings Probleme, weshalb wir uns von Herrn Buhl helfen lassen haben. Er behob unsere Fehler undmachte uns darauf aufmerksam, dass wir unsere Programmier-Schreibweise überarbeiten sollten.
+
+05.10.2022
+
+In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern.
