@@ -51,4 +51,4 @@ In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das S
 
 05.10.2022
 
-In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern.
+In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass das sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem Pixel erneut mit dem Spieler,was dazu führte, dass stetig neue Abschleppwagen spawnt. Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Mithilfe von ()  
