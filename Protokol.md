@@ -45,12 +45,15 @@ Heute war Lasse leider wieder krank. Deshalb habe ich mich daran gemacht erstmal
 
 Heute zeigte Joel mir die neue Checkpoint-Mechanik und brachte mich auf den neusten Stand, was unser Spiel angeht. Anschließend sammelten wir verschiedene Möglichkeiten, mit dem Spiel fortzufahren. Entweder lassen wir das bisherige Level auf dem momentanen Stand und fokussieren uns auf ein neues Level, oder wir perfektionieren das bisherige. Wir entschieden uns für Letzteres.
 
-
-
 28.09.2022
 
 In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das Spiel hinzuzufügen. Dies soll ein Abschleppwagen sein. Er spawnt in der Welt dann, wenn der Spieler, mit seinem Krankenwagen, mit dem grünen Fahrzeug kollidiert. Anschließend soll er sich in die Richtung des Unfalls drehen und dort hin bewegen. Mit der Umsetzung dieser Idee hatten wir allerdings Probleme, weshalb wir uns von Herrn Buhl helfen lassen haben. Er behob unsere Fehler und machte uns darauf aufmerksam, dass wir unsere Programmier-Schreibweise überarbeiten sollten.
 
 05.10.2022
 
-In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem neuen Bild erneut mit dem Spieler, was dazu führte, dass stetig neue Abschleppwagen spawnen. Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Gemeinsam mit Herrn () fand ich heraus, dass wir hierfür eine eigene Variable definieren müssen
+In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem neuen Bild erneut mit dem Spieler, was dazu führte, dass stetig neue Abschleppwagen spawnen. Hierdurch geriet das Programm sehr ins Ruckeln.
+Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Gemeinsam mit Herrn () fand ich heraus, dass wir hierfür eine eigene Variable definieren müssen. Das Programm überprüft dann ob diese Variable true oder false ist. Ist sie false, dann läuft das Spiel normal weiter. Ist sie hingegen true, dann stoppt das Programm die Bewegungen der Unfallwagen und lässt nur den Abschleppwagen fahren.
+
+26.10.2022
+
+An diesem Tag war Joel erneut krank. Zunächst überarbeitete ich das Aussehen unseres Leveles, bzw. der Fahrzeuge. Da auf diesem Schul-PC leider kein Programm installiert ist, mit dem die richtige Bearbeitung möglich ist, schickte ich die entsprechenden Bilder an Robert. Er hat dann auf seinem eigenen Laptop die Bilder nach unseren Anforderungen bearbeitet und an mich zurückgeschickt. 
