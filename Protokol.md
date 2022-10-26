@@ -60,3 +60,4 @@ Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anha
 An diesem Tag war Joel erneut krank. Zunächst überarbeitete ich das Aussehen unseres Leveles, bzw. der Fahrzeuge. Da auf diesem Schul-PC leider kein Programm installiert ist, mit dem die richtige Bearbeitung möglich ist, schickte ich die entsprechenden Bilder an Robert. Er hat dann auf seinem eigenen Laptop die Bilder nach unseren Anforderungen bearbeitet und an mich zurückgeschickt. 
 Somit sah unser Level zum ersten Mal fertig aus. 
 ![Screenshot (7)](https://user-images.githubusercontent.com/111385267/197958603-c839b39b-5d51-44a1-b39f-ca9a07835b49.png)
+
