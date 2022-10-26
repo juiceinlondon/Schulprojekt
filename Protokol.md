@@ -57,3 +57,4 @@ Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anha
 26.10.2022
 
 An diesem Tag war Joel erneut krank. Zunächst überarbeitete ich das Aussehen unseres Leveles, bzw. der Fahrzeuge. Da auf diesem Schul-PC leider kein Programm installiert ist, mit dem die richtige Bearbeitung möglich ist, schickte ich die entsprechenden Bilder an Robert. Er hat dann auf seinem eigenen Laptop die Bilder nach unseren Anforderungen bearbeitet und an mich zurückgeschickt. 
+Somit sah unser Level zum ersten Mal fertig aus.
