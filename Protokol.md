@@ -43,12 +43,13 @@ Heute war Lasse leider wieder krank. Deshalb habe ich mich daran gemacht erstmal
 
 27.09.2022
 
+Heute zeigte Joel mir die neue Checkpoint-Mechanik und brachte mich auf den neusten Stand, was unser Spiel angeht. 
 
 
 28.09.2022
 
-In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das Spiel hinzuzufügen. Dies soll ein Abschleppwagen sein. Er spawnt in der Welt dann, wenn der Spieler, mit seinem Krankenwagen, mit dem grünen Fahrzeug kollidiert. Anschließend soll er sich in die Richtung des Unfalls drehen und dort hin bewegen. Mit der Umsetzung dieser Idee hatten wir allerdings Probleme, weshalb wir uns von Herrn Buhl helfen lassen haben. Er behob unsere Fehler undmachte uns darauf aufmerksam, dass wir unsere Programmier-Schreibweise überarbeiten sollten.
+In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das Spiel hinzuzufügen. Dies soll ein Abschleppwagen sein. Er spawnt in der Welt dann, wenn der Spieler, mit seinem Krankenwagen, mit dem grünen Fahrzeug kollidiert. Anschließend soll er sich in die Richtung des Unfalls drehen und dort hin bewegen. Mit der Umsetzung dieser Idee hatten wir allerdings Probleme, weshalb wir uns von Herrn Buhl helfen lassen haben. Er behob unsere Fehler und machte uns darauf aufmerksam, dass wir unsere Programmier-Schreibweise überarbeiten sollten.
 
 05.10.2022
 
-In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass das sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem Pixel erneut mit dem Spieler,was dazu führte, dass stetig neue Abschleppwagen spawnt. Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Mithilfe von ()  
+In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem neuen Bild erneut mit dem Spieler, was dazu führte, dass stetig neue Abschleppwagen spawnen. Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Gemeinsam mit Herrn () fand ich heraus, dass wir hierfür eine eigene Variable definieren müssen
