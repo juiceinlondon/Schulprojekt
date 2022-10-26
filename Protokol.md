@@ -43,7 +43,8 @@ Heute war Lasse leider wieder krank. Deshalb habe ich mich daran gemacht erstmal
 
 27.09.2022
 
-Heute zeigte Joel mir die neue Checkpoint-Mechanik und brachte mich auf den neusten Stand, was unser Spiel angeht. 
+Heute zeigte Joel mir die neue Checkpoint-Mechanik und brachte mich auf den neusten Stand, was unser Spiel angeht. Anschließend sammelten wir verschiedene Möglichkeiten, mit dem Spiel fortzufahren. Entweder lassen wir das bisherige Level auf dem momentanen Stand und fokussieren uns auf ein neues Level, oder wir perfektionieren das bisherige. Wir entschieden uns für Letzteres.
+
 
 
 28.09.2022
