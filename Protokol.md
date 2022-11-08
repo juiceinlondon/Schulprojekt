@@ -62,3 +62,11 @@ Somit sah unser Level zum ersten Mal fertig aus.
 ![Screenshot (7)](https://user-images.githubusercontent.com/111385267/197958603-c839b39b-5d51-44a1-b39f-ca9a07835b49.png)
 Das einzige Problem ist momentan die dauerhafte Kollision der Autos. Dessen Lösung müssen wir uns in der nächsten Woche widmen.
 
+02.11.2022
+
+Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunächst über verschiede Methoden auf. Die erste Methode war die, die Herr Buhls Referendar bereits erwähnt hatte. Die zweite Methode war die "Singleton Methode". Dazu zeigte er uns zuerst ein Beispiel. Da wir dies nach eigenem Versuchen leider nicht selbst geschafft haben umzusetzen, zeigte uns Herr Buhl die erste Variante und wo sie einzusetzen ist. Nun war das erste Level wirklich fertig.
+
+08.11.2022 
+
+Leider war Joel erneut krank. Also begann ich damit, ein neues Level zu erstellen. 
+
