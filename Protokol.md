@@ -68,5 +68,5 @@ Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunäc
 
 08.11.2022 
 
-Leider war Joel erneut krank. Also begann ich damit, ein neues Level zu erstellen. 
+Heute hatte Joel ein Vorstellungsgespräch und konnte deshalb nicht am Unterricht teilnehmen. Also begann ich damit, ein neues Level zu erstellen. 
 
