@@ -70,3 +70,11 @@ Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunäc
 
 Heute hatte Joel ein Vorstellungsgespräch und konnte deshalb nicht am Unterricht teilnehmen. Also begann ich damit, ein neues Level zu erstellen. 
 
+09.11.2022
+
+Random spawn auf parkplätzen hilfe von herrn buhl
+
+16.11.2022
+
+drittes level zweites random parkplatz auto
+
