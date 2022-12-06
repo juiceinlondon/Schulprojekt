@@ -68,19 +68,20 @@ Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunäc
 
 08.11.2022 
 
-Heute hatte Joel ein Vorstellungsgespräch und konnte deshalb nicht am Unterricht teilnehmen. Also begann ich damit, ein neues Level zu erstellen. 
+Heute hatte Joel ein Vorstellungsgespräch und konnte deshalb nicht am Unterricht teilnehmen. Also begann ich damit, ein neues Level zu erstellen. Dazu übernahm ich das Layout des ersten Levels. Um das zweite Level zu erreichen, muss der Spieler nun seinen Krankenwagen erfolgreich einparken. Geschieht dies, dann erzeugt der Krankenwagen das neue Level mit einem delay von 30. In dieser neuen Welt spawnen nun der Spieler und das Greencar erneut.
 
 09.11.2022
 
-Random spawn auf parkplätzen hilfe von herrn buhl
+Um die Schwierigkeit mit jedem Level zu erhöhen, hatten wir heute die Idee, ein weiteres Auto hinzuzufügen. Es soll zufällig auf einem der Parkplätze spawnen und den Spieler behindern. Dabei nutzen wir die selbe Methode wie für die Checkpoints. Hier trat allerdings das Problem auf, dass Checkpoint und Auto mit einer geringen Wahrscheinlichkeit an der selben Stelle spawnen. Mit der Hilfe von Herrn Buhl fanden wir hierfür eine Lösung. Der Constructor prüft vor dem spawnen des Autos, ob dessen x- und y-Koordinaten die selben sind. Ist dies der Fall, dann wird ein neuer Spawnpunkt auf den Parkplätzen generiert. Dies geschiet solange, bis die Koordinaten nicht identisch sind.
 
 16.11.2022
 
-drittes level zweites random parkplatz auto
+Heute haben wir das drittes Level angefangen. Dazu gingen wir so wie beim zweiten Level vor und fügten die bereits fertigen Fahrzeuge ein. Außerdem fügten wir ein weiteres Auto ein, welches ebenfalls um die Parkplätze herumfährt. Dieses lassen wir entgegengesetzt zum Greencar spawnen, damit der Spieler von beiden Seiten von sich bewegenden Fahrzeugen eingeschränkt wird. 
 
 23.11.2022
 
-drittes level ausgebaut, zweites auto im kreis, level 4
+In dieser Stunde stellten wir das dritte Level fertig. Außerdem haben wir das Aussehen der Fahrzeuge angepasst, sodass keine weißen Ränder mehr vorhanden sind.
+Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen Parkplatz 
 ![Screenshot (8)](https://user-images.githubusercontent.com/111385267/203496627-228cda42-6fb1-41bb-af58-3ea57a541eed.png)
 
 
