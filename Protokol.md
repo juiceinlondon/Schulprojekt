@@ -80,8 +80,8 @@ Heute haben wir das drittes Level angefangen. Dazu gingen wir so wie beim zweite
 
 23.11.2022
 
-In dieser Stunde stellten wir das dritte Level fertig. Außerdem haben wir das Aussehen der Fahrzeuge angepasst, sodass keine weißen Ränder mehr vorhanden sind.
-Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen Parkplatz 
+In dieser Stunde stellten wir das dritte Level fertig. Außerdem haben wir das Aussehen der neuen Fahrzeuge angepasst, sodass keine weißen Ränder mehr vorhanden sind.
+Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen 2D-Parkplatz aus dem Internet heraus.  
 ![Screenshot (8)](https://user-images.githubusercontent.com/111385267/203496627-228cda42-6fb1-41bb-af58-3ea57a541eed.png)
 
 
