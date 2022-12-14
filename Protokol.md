@@ -81,14 +81,18 @@ Heute haben wir das drittes Level angefangen. Dazu gingen wir so wie beim zweite
 23.11.2022
 
 In dieser Stunde stellten wir das dritte Level fertig. Außerdem haben wir das Aussehen der neuen Fahrzeuge angepasst, sodass keine weißen Ränder mehr vorhanden sind.
-Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen 2D-Parkplatz aus dem Internet heraus.  
+Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen 2D-Parkplatz aus dem Internet heraus. Dieser hat weniger Parkplätze, aber eine Grünfläche in der Mitte. Unsere Vorstellung ist, dass das Spiel fehlschlägt, wenn der Spieler diese berührt.
 ![Screenshot (8)](https://user-images.githubusercontent.com/111385267/203496627-228cda42-6fb1-41bb-af58-3ea57a541eed.png)
+
+07.12.2022 
+
+Barriere Level 4, 
 
 13.12.2022
 
-Arbeit an Level 4, Bearbeitung der Bilder
+Arbeit an Level 4, Rotes Auto (Probleme), Bearbeitung der Bilder
 
 14.12.2022
 
-Fertigstellung Level 4, Erstellen und Einfügen eines Winscreens, Github, hochladen des Spiels
+Joel Arzttermin, Fertigstellung Level 4, Erstellen und Einfügen eines Winscreens, Github, hochladen des Spiels
 
