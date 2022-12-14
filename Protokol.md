@@ -84,6 +84,10 @@ In dieser Stunde stellten wir das dritte Level fertig. Außerdem haben wir das A
 Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen 2D-Parkplatz aus dem Internet heraus. Dieser hat weniger Parkplätze, aber eine Grünfläche in der Mitte. Unsere Vorstellung ist, dass das Spiel fehlschlägt, wenn der Spieler diese berührt.
 ![Screenshot (8)](https://user-images.githubusercontent.com/111385267/203496627-228cda42-6fb1-41bb-af58-3ea57a541eed.png)
 
+06.12.2022
+
+Joel krank, Herr Buhl erzählt uns von der Abgabe, Arbeit an github
+
 07.12.2022 
 
 Barriere Level 4, 
