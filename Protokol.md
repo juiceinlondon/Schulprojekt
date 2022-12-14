@@ -84,4 +84,11 @@ In dieser Stunde stellten wir das dritte Level fertig. Außerdem haben wir das A
 Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, suchten wir uns dazu einen neuen 2D-Parkplatz aus dem Internet heraus.  
 ![Screenshot (8)](https://user-images.githubusercontent.com/111385267/203496627-228cda42-6fb1-41bb-af58-3ea57a541eed.png)
 
+13.12.2022
+
+Arbeit an Level 4, Bearbeitung der Bilder
+
+14.12.2022
+
+Fertigstellung Level 4, Erstellen und Einfügen eines Winscreens, Github, hochladen des Spiels
 
