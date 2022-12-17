@@ -100,5 +100,7 @@ Den Rest der Stunde haben wir das Bild des roten Autos in der Größe und im Aus
 
 14.12.2022
 
-An diesem Tag fanden die letzten 90 Minuten für die Arbeit an diesem Projekt statt. Wie bereits erwähnt, konnte Joel an diesem Tag nicht am Unterricht teilnehmen. Zunächst begann ich damit, das Ende des Spiels zu erstellen. Dazu erstellte ich einen Winscreen. Dieser wird angezeigt, wenn der Spieler das vierte Level erfolgreich absolviert und gratuliert dem Spieler zum Erfolg. Anschließend spielte ich unser Spiel mehrfach selbst durch und ließ es ebenfalls von Mitschülern testen.  Fertigstellung Level 4, Erstellen und Einfügen eines Winscreens, Github, hochladen des Spiels
+An diesem Tag fanden die letzten 90 Minuten für die Arbeit an diesem Projekt statt. Wie bereits erwähnt, konnte Joel an diesem Tag nicht am Unterricht teilnehmen. Zunächst begann ich damit, das Ende des Spiels zu erstellen. Dazu erstellte ich einen Winscreen. Dieser wird angezeigt, wenn der Spieler das vierte Level erfolgreich absolviert und gratuliert dem Spieler zum Erfolg. Anschließend spielte ich unser Spiel mehrfach selbst durch und ließ es ebenfalls von Mitschülern testen. Dabei funktioniert fast alles perfekt. Das einzig erkennbare Problem war, dass sich der Abschleppwagen unendlich im Kreis dreht, sobald er den Krankenwagen erreicht. Also fügte ich ein, dass das Spiel beendet ist, sobald der Abschleppwagen den Krankenwagen berührt. Resetet der Spieler nun unser Spiel, dann beginnt er erneut bei Level 1.
+Anbschließend habe ich das Spiel in den Gruppenordner bei Isurf hochgeladen, sodass es für Herrn Buhl zu finden ist. 
+Damit war die Arbeit an unserem ersten Informatik-Projekt beendet und ich begann mit unserer Projektseite.
 
