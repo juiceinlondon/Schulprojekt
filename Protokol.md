@@ -76,7 +76,7 @@ Um die Schwierigkeit mit jedem Level zu erhöhen, hatten wir heute die Idee, ein
 
 16.11.2022
 
-Heute haben wir das drittes Level angefangen. Dazu gingen wir so wie beim zweiten Level vor und fügten die bereits fertigen Fahrzeuge ein. Außerdem fügten wir ein weiteres Auto ein, welches ebenfalls um die Parkplätze herumfährt. Dieses lassen wir entgegengesetzt zum Greencar spawnen, damit der Spieler von beiden Seiten von sich bewegenden Fahrzeugen eingeschränkt wird. 
+Heute haben wir das drittes Level angefangen. Dazu gingen wir so wie beim zweiten Level vor und fügten die bereits fertigen Fahrzeuge ein. Außerdem fügten wir ein weiteres Auto ein, welches ebenfalls um die Parkplätze herumfährt. Dieses lassen wir gegenüber vom Greencar spawnen, damit der Spieler von beiden Seiten von sich bewegenden Fahrzeugen eingeschränkt wird. 
 
 23.11.2022
 
@@ -86,11 +86,12 @@ Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, su
 
 06.12.2022
 
-An diesem Tag war Joel krank. Außerdem hat uns Herr Buhl genaueres über die Abgabe erzählt. Diese wurde nun vom 15.12 auf den 19.12 verschoben. An diesem Tag sollen wir Herrn Buhl das Stundenprotokoll und die Projektseite per Email schicken. Den Rest der Stunde habe ich die letzten Github-Einträge überarbeitet und Bilder hinzugefügt. 
+An diesem Tag war Joel krank. Außerdem hat uns Herr Buhl genaueres über die Abgabe erzählt. Diese wurde nun vom 15.12 auf den 19.12 verschoben. An diesem Tag sollen wir Herrn Buhl die Links zu unserem Stundenprotokoll und unserer Projektseite per Email schicken. Den Rest der Stunde habe ich die letzten Github-Einträge überarbeitet und Bilder hinzugefügt. 
 
 07.12.2022 
 
-Heute haben wir uns weiter mit unserem vierten Level beschäftigt.
+Heute haben wir uns weiter mit unserem vierten Level beschäftigt. Da dieser neue Parkplatz anders aufgebaut ist und eine Grünfläche in der Mitte hat, mussten wir eine entsprechende Barriere erstellen, die die Ausmaße der Grünfläche hat. Berührt der Spieler diese Fläche, dann ist das Spiel verloren. Dazu bearbeiteten wir mit GIMP ein Bild von Gras so, dass es die gewollte Form annimmt. Anschließend fügten wir es als Actor in die Welt ein. Anschließend fügten wir den Checkpoint in das Level ein. Zunächst ermittelten wir dafür die Koordinaten des Prakplatzes in der linken oberen Ecke und anschließend die Differenz der x- und y-Koordinaten zu den anliegenden Parplätzen daneben und darunter. Nun setzten wir die ermittelten Werte in den Code für das Spawnen des Checkpoints aus Level 3 ein. Zuletzt verringerten wir den Multiplikator der x-Koordinaten auf 4, da in diesem Level ein Parkplatz weniger in x-Richtung vorhanden ist.    
+
 
 13.12.2022
 
