@@ -86,11 +86,11 @@ Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, su
 
 06.12.2022
 
-Joel krank, Herr Buhl erzählt uns von der Abgabe, Arbeit an github
+An diesem Tag war Joel krank. Außerdem hat uns Herr Buhl genaueres über die Abgabe erzählt. Diese wurde nun vom 15.12 auf den 19.12 verschoben. An diesem Tag sollen wir Herrn Buhl das Stundenprotokoll und die Projektseite per Email schicken. Den Rest der Stunde habe ich die letzten Github-Einträge überarbeitet und Bilder hinzugefügt. 
 
 07.12.2022 
 
-Barriere Level 4, 
+Heute haben wir uns weiter mit unserem vierten Level beschäftigt.
 
 13.12.2022
 
