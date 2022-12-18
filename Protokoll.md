@@ -2,6 +2,8 @@
 
 ### Park Me - Stundenprotokoll
 
+https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#17082022
+
 ## 17.08.2022
 
 Heute haben wir unsere Idee zu einem 2D-basierten Spiel entwickelt. Dieses soll einen Touch von einem Jump&Run und einem Escape Room-Spiel haben.
