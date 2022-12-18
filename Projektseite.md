@@ -11,7 +11,7 @@ Zeitraum: 08.2022-12.2022
    - [Die Teammitglieder](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#die-teammitglieder)
    - [Unsere bisherigen Erfahrungen beim Programmieren](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#unsere-bisherigen-erfahrungen-beim-programmieren)
    - [Die Ideenfindung](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#die-ideenfindung)
-   - Benutzte Programme und Programmiersprachen  
+   - [Benutzte Programme und Programmiersprachen]()
 2. Das Spiel
    - Was ist "Park Me"?
    - Bestandteile des Spiels  
