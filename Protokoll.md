@@ -24,21 +24,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 17.08.2022
 
 Heute haben wir unsere Idee zu einem 2D-basierten Spiel entwickelt. Dieses soll einen Touch von einem Jump&Run und einem Escape Room-Spiel haben.
@@ -48,19 +33,19 @@ Unsere Idee ist es, mit Unity zu arbeiten und dort gratis Assets für unser Spie
 
 ## 23.08.2022
 
-In dieser Stunde kamen wir zu dem Entschluss, ein 2D-Parkplatz-Spiel zu programmieren. Hierzu nutzen wir das Programm Greenfoot. In diesem Spiel geht es darum, ein Fahrzeug in einen bestimmten Parkplatz zu bewegen. Dabei möchten wir Level mit aufsteigender Schwierigkeit entwicklen, wie andere Fahrzeuge, die sich ebenfalls über den Parkplatz bewegen, welche man nicht berühren darf. Als erstes veränderten wir ein 2D-Bild eines Parkplatzes so, dass es für unser erstes Level geeignet ist. Anschließend machten wir uns mithilfe des Greenfoot Buches mit den Grundmechaniken des Programmes vertraut.
+In dieser Stunde kamen wir zu dem Entschluss, ein 2D-Parkplatz-Spiel zu programmieren. Hierzu nutzen wir das Programm Greenfoot. In diesem Spiel geht es darum, ein Fahrzeug in einen bestimmten Parkplatz zu bewegen. Dabei möchten wir Level mit aufsteigender Schwierigkeit entwickeln, wie andere Fahrzeuge, die sich ebenfalls über den Parkplatz bewegen, welche man nicht berühren darf. Als erstes veränderten wir ein 2D-Bild eines Parkplatzes so, dass es für unser erstes Level geeignet ist. Anschließend machten wir uns mithilfe des Greenfoot Buches mit den Grundmechaniken des Programmes vertraut.
 
 
 
 ## 24.08.2022
 
-Die heutige Doppelstunde nutzten wir, um die wichtigsten Grundsteuerelemente für das Fahrzeug zu programmieren. Wie in den meisten Spielen üblich, liegen bei uns die Befehle "vorwärts, links, rückwärts, rechts" auf den Tasten "w,a,s,d". Dabei kam das Problem auf, dass sich das Fahrzeug nicht wie von uns gedacht nach links und rechts bewegen konnte. Um die richtige Bewegung zu ermöglichen, legten wir fest, dass sich das Fahrzeug drehen soll, sobald der Spieler die Leertaste betätigt. Bisher ist es nur mögich das Fahrzeug zu drehen, wenn eine weitere Bewegungstaste betätigt wird. Zu dem dreht sich das Fahrzeug bei der ersten Betätigung der Leertaste nicht um -6°, sondern richtet sich sofort in die Richtung -6° aus. Dieses Problem wollen wir später lösen und uns nun auf das Erstellen von Spawn- und Zielpunkten konzentrieren.  
+Die heutige Doppelstunde nutzten wir, um die wichtigsten Grundsteuerelemente für das Fahrzeug zu programmieren. Wie in den meisten Spielen üblich, liegen bei uns die Befehle "vorwärts, links, rückwärts, rechts" auf den Tasten "w,a,s,d". Dabei kam das Problem auf, dass sich das Fahrzeug nicht wie von uns gedacht nach links und rechts bewegen konnte. Um die richtige Bewegung zu ermöglichen, legten wir fest, dass sich das Fahrzeug drehen soll, sobald der Spieler die Leertaste betätigt. Bisher ist es nur möglich, das Fahrzeug zu drehen, wenn eine weitere Bewegungstaste betätigt wird. Zu dem dreht sich das Fahrzeug bei der ersten Betätigung der Leertaste nicht um -6°, sondern richtet sich sofort in die Richtung -6° aus. Dieses Problem wollen wir später lösen und uns nun auf das Erstellen von Spawn- und Zielpunkten konzentrieren.  
 
 
 
 ## 30.08.2022
 
-Wie in der letzten Woche besprochen war es heute unser Ziel, die Spawn- und Zielpunkte zu erstellen. Für unser erstes Test-Level legten wir fest, dass unser Fahrzeug in der unteren rechten Ecke der Welt spawnen soll. Der Einfachheit halber platzierten wir das Zielfeld auf den naheliegendsten Parkplatz. Dieses Zielfeld, momentan noch braun dargestellt, liegt genau in der Parkfläche und soll stets den zu erreichenden Parkplatz signalisieren. Anschließend haben wir versucht einen günstigen Punkt innerhalb des Feldes zu finden. Erreicht unser Auto nun diesen Punkt, ist das Level erfolgreich abgeschlossen. Da wir keine Koordinaten in unserer Welt anzeigen lassen konnten, mussten wir länger nach diesen perfekten Punkt suchen. 
+Wie in der letzten Woche besprochen, war es heute unser Ziel, die Spawn- und Zielpunkte zu erstellen. Für unser erstes Test-Level legten wir fest, dass unser Fahrzeug in der unteren rechten Ecke der Welt spawnen soll. Der Einfachheit halber platzierten wir das Zielfeld auf den naheliegendsten Parkplatz. Dieses Zielfeld, momentan noch braun dargestellt, liegt genau in der Parkfläche und soll stets den zu erreichenden Parkplatz signalisieren. Anschließend haben wir versucht einen günstigen Punkt innerhalb des Feldes zu finden. Erreicht unser Auto nun diesen Punkt, ist das Level erfolgreich abgeschlossen. Da wir keine Koordinaten in unserer Welt anzeigen lassen konnten, mussten wir länger nach diesen perfekten Punkt suchen. 
 
 
 
@@ -81,13 +66,13 @@ Da Joel heute krank war, arbeitete ich alleine weiter. Wie letzte Woche geplant,
 
 ## 07.09.2022
 
-Auch heute war Joel krank, somit fuhr ich alleine mit der Arbeit fort. Das heutige Ziel war es, dass sich das andere Fahrzeug zufällig bewegen kann. Für diese Bewegung probierte ich verschiedene Methoden aus. Schließlich programmierte ich, dass sich dieses Fahrzeug dauerhaft um 4 Einheiten nach vorne bewegt. Gleichzeitig läuft im Hintergrund ein Zahlengenerator, der eine Zahl zwischen 1 und 100 generiert. Ist diese Zahl kleiner als 20, dreht sich das Fahrzeug eine Eihneit nach links. Ist die Zahl größer als 80, dreht es sich nach links. Andernfalls bewegt sich das Fahrzeug lediglich geradeaus weiter. Hierbei muss allerdings überarbeitet werden, dass sich das Fahrzeug nach einiger Zeit am Rand der Welt "festfährt". Für das vorrängige Ziel, die Schwierigkeit des Levels zu erhöhen, ist die bisherige Funktionsweise jedoch ausreichend. 
+Auch heute war Joel krank, somit fuhr ich alleine mit der Arbeit fort. Das heutige Ziel war es, dass sich das andere Fahrzeug zufällig bewegen kann. Für diese Bewegung probierte ich verschiedene Methoden aus. Schließlich programmierte ich, dass sich dieses Fahrzeug dauerhaft um 4 Einheiten nach vorne bewegt. Gleichzeitig läuft im Hintergrund ein Zahlengenerator, der eine Zahl zwischen 1 und 100 generiert. Ist diese Zahl kleiner als 20, dreht sich das Fahrzeug eine Einheit nach links. Ist die Zahl größer als 80, dreht es sich nach links. Andernfalls bewegt sich das Fahrzeug lediglich geradeaus weiter. Hierbei muss allerdings überarbeitet werden, dass sich das Fahrzeug nach einiger Zeit am Rand der Welt "festfährt". Für das vorrangige Ziel, die Schwierigkeit des Levels zu erhöhen, ist die bisherige Funktionsweise jedoch ausreichend. 
 
 
 
 ## 13.09.2022
 
-Heute war Lasse krank. Somit fuhr ich alleine fort und verwarf die Idee von Lasse, dass das "random" generierte Auto sich anhand einer zufälligen Zahl fortbewegt. Nun habe ich stattdessen Punkte gesetzt, die das Auto abfährt und sich an jeweiligen Ecken dreht. Dadurch fährt das Auto zwar nicht mehr zufällsmäßig. Es sieht aber flüßiger und realistischer aus. Außerdem habe ich die Geschwindigkeit verringert und dem Auto hinzugefügt, dass es, wenn es an das Ende der Welt stößt eine 90°-Drehung macht. Dies dürfte aber nicht passieren, da das Auto ja einen vorbestimmten Weg abfährt.
+Heute war Lasse krank. Somit fuhr ich alleine fort und verwarf die Idee von Lasse, dass das "random" generierte Auto sich anhand einer zufälligen Zahl fortbewegt. Nun habe ich stattdessen Punkte gesetzt, die das Auto abfährt und sich an jeweiligen Ecken dreht. Dadurch fährt das Auto zwar nicht mehr zufällsmäßig. Es sieht aber flüssiger und realistischer aus. Außerdem habe ich die Geschwindigkeit verringert und dem Auto hinzugefügt, dass es, wenn es an das Ende der Welt stößt eine 90°-Drehung macht. Dies dürfte aber nicht passieren, da das Auto ja einen vorbestimmten Weg abfährt.
 
 
 
@@ -105,14 +90,14 @@ Heute zeigte Joel mir die neue Checkpoint-Mechanik und brachte mich auf den neus
 
 ## 28.09.2022
 
-In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das Spiel hinzuzufügen. Dies soll ein Abschleppwagen sein. Er spawnt in der Welt dann, wenn der Spieler, mit seinem Krankenwagen, mit dem grünen Fahrzeug kollidiert. Anschließend soll er sich in die Richtung des Unfalls drehen und dort hin bewegen. Mit der Umsetzung dieser Idee hatten wir allerdings Probleme, weshalb wir uns von Herrn Buhl helfen lassen haben. Er behob unsere Fehler und machte uns darauf aufmerksam, dass wir unsere Programmier-Schreibweise überarbeiten sollten.
+In der heutigen Doppelstunde hatten wir die Idee, ein weiteres Fahrzeug in das Spiel hinzuzufügen. Dies soll ein Abschleppwagen sein. Er spawnt in der Welt dann, wenn der Spieler, mit seinem Krankenwagen, mit dem grünen Fahrzeug kollidiert. Anschließend soll er sich in die Richtung des Unfalls drehen und dort hinbewegen. Mit der Umsetzung dieser Idee hatten wir allerdings Probleme, weshalb wir uns von Herrn Buhl helfen lassen haben. Er behob unsere Fehler und machte uns darauf aufmerksam, dass wir unsere Programmier-Schreibweise überarbeiten sollten.
 
 
 
 ## 05.10.2022
 
-In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem neuen Bild erneut mit dem Spieler, was dazu führte, dass stetig neue Abschleppwagen spawnen. Hierdurch geriet das Programm sehr ins Ruckeln.
-Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Gemeinsam mit Herrn () fand ich heraus, dass wir hierfür eine eigene Variable definieren müssen. Das Programm überprüft dann ob diese Variable true oder false ist. Ist sie false, dann läuft das Spiel normal weiter. Ist sie hingegen true, dann stoppt das Programm die Bewegungen der Unfallwagen und lässt nur den Abschleppwagen fahren.
+In dieser Doppelstunde war Joel krank, deshalb begann ich damit, die von Herrn Buhl angemerkten Fehler in unserer Schreibweise auszubessern. Nachdem dies erledigt war, widmete ich mich der Verbesserung des Abschleppwagens. Bisher war es so, dass sich das grüne Auto, nach der Kollision, dauerhaft weiterbewegt. Dadurch kollidierte es in jedem neuen Bild erneut mit dem Spieler, was dazu führte, dass stetig neue Abschleppwagen spawnen. Hierdurch geriet das Programm sehr ins Stocken.
+Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anhalten sollen. Ohne dabei das gesamte Programm zu pausieren. Gemeinsam mit Herrn Buhls Referendar fand ich heraus, dass wir hierfür eine eigene Variable definieren müssen. Das Programm überprüft dann ob diese Variable true oder false ist. Ist sie false, dann läuft das Spiel normal weiter. Ist sie hingegen true, dann stoppt das Programm die Bewegungen der Unfallwagen und lässt nur den Abschleppwagen fahren.
 
 
 
@@ -127,7 +112,7 @@ Das einzige Problem ist momentan die dauerhafte Kollision der Autos. Dessen Lös
 
 ## 02.11.2022
 
-Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunächst über verschiede Methoden auf. Die erste Methode war die, die Herr Buhls Referendar bereits erwähnt hatte. Die zweite Methode war die "Singleton Methode". Dazu zeigte er uns zuerst ein Beispiel. Da wir dies nach eigenem Versuchen leider nicht selbst geschafft haben umzusetzen, zeigte uns Herr Buhl die erste Variante und wo sie einzusetzen ist. Nun war das erste Level wirklich fertig.
+Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunächst über verschiede Methoden auf. Die erste Methode war die, die Herr Buhls Referendar bereits erwähnt hatte. Die zweite Methode war die "Singleton Methode". Dazu zeigte er uns zuerst ein Beispiel. Da wir dies nach eigenem Versuchen leider nicht selbst geschafft haben umzusetzen, zeigte uns Herr Buhl die erste Variante und wo sie einzusetzen ist. Dies setzten wir schließlich um. Nun war das erste Level wirklich fertig.
 
 
 
