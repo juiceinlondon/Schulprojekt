@@ -18,6 +18,9 @@ Zeitraum: 08.2022-12.2022
 3. Eigene abschließende Bewertung  
 
 
+## Der Beginn  
+
+
 ### Die Teammitglieder
 Direkt zu Beginn des Informatikunterrichtes im August 2022 haben wir, Joel Rosenberg und Lasse Prühs, uns dazu entschlossen, gemeinsam zu arbeiten. Da wir uns bereits im Vorfeld im Privaten über das Programmieren unterhalten haben, fiel uns diese Entscheidung sehr leicht. Außerdem teilen wir ähnliche Interessen im Bereich der Computerarbeit, weshalb wir uns sicher waren, dass unsere gemeinsame Arbeit sehr gut funktionieren wird.  
 
