@@ -4,7 +4,7 @@
 
 # Inhaltsverzeichnis
 | Stunde |
-| -------------------------- |
+| -------------------------- |-----------|
 | [1. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#17082022)| [12. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#05102022)|
 | [2. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#23082022)|
 | [3. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#24082022)|
