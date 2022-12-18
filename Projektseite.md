@@ -14,7 +14,7 @@ Zeitraum: 08.2022-12.2022
    - [Benutzte Programme und Programmiersprachen](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#benutzte-programme-und-programmiersprachen)
 2. [Das Spiel](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#das-spiel)
    - [Was ist "Park Me"?](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#was-ist-park-me)
-   - [Bestandteile des Spiels]()  
+   - [Bestandteile des Spiels](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#bestandteile-des-spiels)  
 3. Eigene abschließende Bewertung  
 
 
