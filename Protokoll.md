@@ -24,8 +24,8 @@
 [18.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#23112022)
 [19.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#06122022)
 [20.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#07122022)
-[21.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#013122022)
-[22.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#014122022)
+[21.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#13122022)
+[22.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#14122022)
 
 
 ## 17.08.2022
