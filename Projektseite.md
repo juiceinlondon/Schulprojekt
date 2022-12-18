@@ -33,7 +33,12 @@ Von der ersten Stunde an waren wir uns einig, dass wir ein Spiel programmieren w
 Auf den Schulcomputern ist dieses Programm allerdings nicht installiert, weshalb wir uns anschließend nach neuen Möglichkeiten und Ideen umgesehen haben.  
 Dabei kamen wir schnell auf die Idee eines Spiels, in dem der Spieler ein Auto steuert. Auf diese Idee kamen wir, da wir in unser Freizeit gemeinsam ein Spiel spielen, welches primär mit Autos zu tun hat. Nach einigen Überlegungen, was dieses Auto nun tun soll, legten wir fest, dass man es in verschiedenen WElten einparken muss.  
 Dieser Spielidee gaben wir den einfachen und prägnanten Namen: "Park Me"  
-Damit war unser Projekt "Park Me" geboren und die Arbeit konnte beginnen.
+Damit war unser Projekt "Park Me" geboren und die Arbeit konnte beginnen.  
+
+
+### Benutzte Programme und Programmiersprachen
+Zur Umsetzung wählten wir das kostenlose und leicht zu erlernende Programm "Greenfoot", was primär durch die Auswahl an Programmen auf den Schulcomputer bedingt war.
+Da "Greenfoot" die Programmiersprache Java verwendet, mussten wir uns mit dieser erst genauer befassen. Weder Joel, noch Lasse hatten bereits mit Java gearbeitet. Zum Erlernen gab uns Herr Buhl ein Einführungsbuch über "Greenfoot", welches wir in den ersten Wochen öfters benutzten. Außerdem nutzten wir das ["Greenfoot API"](https://www.greenfoot.org/files/javadoc/) (Application Programming Interface)
 
 
 
