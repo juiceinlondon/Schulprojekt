@@ -103,7 +103,7 @@ Folglich musste ich eine Methode finden, den Unfallwagen zu sagen, dass sie anha
 
 ## 26.10.2022
 
-An diesem Tag war Joel erneut krank. Zunächst überarbeitete ich das Aussehen unseres Leveles, bzw. der Fahrzeuge. Da auf diesem Schul-PC leider kein Programm installiert ist, mit dem die richtige Bearbeitung möglich ist, schickte ich die entsprechenden Bilder an Robert. Er hat dann auf seinem eigenen Laptop die Bilder nach unseren Anforderungen bearbeitet und an mich zurückgeschickt. 
+An diesem Tag war Joel erneut krank. Zunächst überarbeitete ich das Aussehen unseres Levels, bzw. der Fahrzeuge. Da auf diesem Schul-PC leider kein Programm installiert ist, mit dem die richtige Bearbeitung möglich ist, schickte ich die entsprechenden Bilder an Robert. Er hat dann auf seinem eigenen Laptop die Bilder nach unseren Anforderungen bearbeitet und an mich zurückgeschickt. 
 Somit sah unser Level zum ersten Mal fertig aus. 
 ![Screenshot (7)](https://user-images.githubusercontent.com/111385267/197958603-c839b39b-5d51-44a1-b39f-ca9a07835b49.png)
 Das einzige Problem ist momentan die dauerhafte Kollision der Autos. Dessen Lösung müssen wir uns in der nächsten Woche widmen.
@@ -118,19 +118,19 @@ Heute haben wir endlich das Problem gelöst. Herr Buhl klärte uns dafür zunäc
 
 ## 08.11.2022 
 
-Heute hatte Joel ein Vorstellungsgespräch und konnte deshalb nicht am Unterricht teilnehmen. Also begann ich damit, ein neues Level zu erstellen. Dazu übernahm ich das Layout des ersten Levels. Um das zweite Level zu erreichen, muss der Spieler nun seinen Krankenwagen erfolgreich einparken. Geschieht dies, dann erzeugt der Krankenwagen das neue Level mit einem delay von 30. In dieser neuen Welt spawnen nun der Spieler und das Greencar erneut.
+Heute hatte Joel ein Vorstellungsgespräch und konnte deshalb nicht am Unterricht teilnehmen. Also begann ich damit, ein neues Level zu erstellen. Dazu übernahm ich das Layout des ersten Levels. Um das zweite Level zu erreichen, muss der Spieler nun seinen Krankenwagen erfolgreich einparken. Geschieht dies, dann erzeugt der Krankenwagen das neue Level mit einem Delay von 30. In dieser neuen Welt spawnen nun der Spieler und das Greencar erneut.
 
 
 
 ## 09.11.2022
 
-Um die Schwierigkeit mit jedem Level zu erhöhen, hatten wir heute die Idee, ein weiteres Auto hinzuzufügen. Es soll zufällig auf einem der Parkplätze spawnen und den Spieler behindern. Dabei nutzen wir die selbe Methode wie für die Checkpoints. Hier trat allerdings das Problem auf, dass Checkpoint und Auto mit einer geringen Wahrscheinlichkeit an der selben Stelle spawnen. Mit der Hilfe von Herrn Buhl fanden wir hierfür eine Lösung. Der Constructor prüft vor dem spawnen des Autos, ob dessen x- und y-Koordinaten die selben sind. Ist dies der Fall, dann wird ein neuer Spawnpunkt auf den Parkplätzen generiert. Dies geschiet solange, bis die Koordinaten nicht identisch sind.
+Um die Schwierigkeit mit jedem Level zu erhöhen, hatten wir heute die Idee, ein weiteres Auto hinzuzufügen. Es soll zufällig auf einem der Parkplätze spawnen und den Spieler behindern. Dabei nutzen wir dieselbe Methode wie für die Checkpoints. Hier trat allerdings das Problem auf, dass Checkpoint und Auto mit einer geringen Wahrscheinlichkeit an derselben Stelle spawnen. Mit der Hilfe von Herrn Buhl fanden wir hierfür eine Lösung. Der Constructor prüft vor dem spawnen des Autos, ob dessen x- und y-Koordinaten dieselben sind. Ist dies der Fall, dann wird ein neuer Spawnpunkt auf den Parkplätzen generiert. Dies geschieht solange, bis die Koordinaten nicht identisch sind. Somit war das zweite Level fertig.
 
 
 
 ## 16.11.2022
 
-Heute haben wir das drittes Level angefangen. Dazu gingen wir so wie beim zweiten Level vor und fügten die bereits fertigen Fahrzeuge ein. Außerdem fügten wir ein weiteres Auto ein, welches ebenfalls um die Parkplätze herumfährt. Dieses lassen wir gegenüber vom Greencar spawnen, damit der Spieler von beiden Seiten von sich bewegenden Fahrzeugen eingeschränkt wird. 
+Heute haben wir das dritte Level angefangen. Dazu gingen wir so wie beim zweiten Level vor und fügten die bereits fertigen Fahrzeuge ein. Außerdem fügten wir ein weiteres Auto ein, welches ebenfalls um die Parkplätze herumfährt. Dieses lassen wir gegenüber vom Greencar spawnen, damit der Spieler von beiden Seiten von sich bewegenden Fahrzeugen eingeschränkt wird. 
 
 
 
@@ -144,19 +144,19 @@ Anschließend begannen wir mit Level 4. Um ein wenig Abwechslung zu erzeugen, su
 
 ## 06.12.2022
 
-An diesem Tag war Joel krank. Außerdem hat uns Herr Buhl genaueres über die Abgabe erzählt. Diese wurde nun vom 15.12 auf den 19.12 verschoben. An diesem Tag sollen wir Herrn Buhl die Links zu unserem Stundenprotokoll und unserer Projektseite per Email schicken. Den Rest der Stunde habe ich die letzten Github-Einträge überarbeitet und Bilder hinzugefügt. 
+An diesem Tag war Joel krank. Außerdem hat uns Herr Buhl genaueres über die Abgabe erzählt. Diese wurde nun vom 15.12 auf den 19.12 verschoben. An diesem Tag sollen wir Herrn Buhl die Links zu unserem Stundenprotokoll und unserer Projektseite per E-Mail schicken. Das fertige Spiel wird in den Gruppenordner bei Isurf hochgeladen. Den Rest der Stunde habe ich die letzten Github-Einträge überarbeitet und Bilder hinzugefügt. 
 
 
 
 ## 07.12.2022 
 
-Heute haben wir uns weiter mit unserem vierten Level beschäftigt. Da dieser neue Parkplatz anders aufgebaut ist und eine Grünfläche in der Mitte hat, mussten wir eine entsprechende Barriere erstellen, die die Ausmaße der Grünfläche hat. Berührt der Spieler diese Fläche, dann ist das Spiel verloren. Dazu bearbeiteten wir mit GIMP ein Bild von Gras so, dass es die gewollte Form annimmt. Anschließend fügten wir es als Actor in die Welt ein. Anschließend fügten wir den Checkpoint in das Level ein. Zunächst ermittelten wir dafür die Koordinaten des Prakplatzes in der linken oberen Ecke und anschließend die Differenz der x- und y-Koordinaten zu den anliegenden Parplätzen daneben und darunter. Nun setzten wir die ermittelten Werte in den Code für das Spawnen des Checkpoints aus Level 3 ein. Zuletzt verringerten wir den Multiplikator der x-Koordinaten auf 4, da in diesem Level ein Parkplatz weniger in x-Richtung vorhanden ist.    
+Heute haben wir uns weiter mit unserem vierten Level beschäftigt. Da dieser neue Parkplatz anders aufgebaut ist und eine Grünfläche in der Mitte hat, mussten wir eine entsprechende Barriere erstellen, die die Ausmaße der Grünfläche hat. Berührt der Spieler diese Fläche, dann ist das Spiel verloren. Dazu bearbeiteten wir mit GIMP ein Bild von Gras so, dass es die gewollte Form annimmt. Anschließend fügten wir es als Actor in die Welt ein. Anschließend fügten wir den Checkpoint in das Level ein. Zunächst ermittelten wir dafür die Koordinaten des Parkplatzes in der linken oberen Ecke und anschließend die Differenz der x- und y-Koordinaten zu den anliegenden Parkplätzen daneben und darunter. Nun setzten wir die ermittelten Werte in den Code für das Spawnen des Checkpoints aus Level 3 ein. Zuletzt verringerten wir den Multiplikator der x-Koordinaten auf 4, da in diesem Level ein Parkplatz weniger in x-Richtung vorhanden ist.    
 
 
 
 ## 13.12.2022
 
-Heute war die vorletzte Stunde vor der Vollendigung des Projektes. Da Joel an der morgigen letzten Stunde nicht teilnehmen kann, wollten wir möglichst viel schaffen, damit ich die morgige Stunde für letzte Verbesserungen im Code und dem Aussehen des Spiel nutzen kann. Folglich arbeiteten wir an Level 4. Unser Ziel war es, ein weiteres rotes Auto einzufügen, welches in der oberen linken Ecke spawnt und nach dem selben Prinzip wie das grüne und blaue Auto funktioniert. Dazu übernahmen wir den Code des grünen Fahrzeuges. Erreicht das rote Auto nun die vorgegebenen Koordinaten in den Ecken der Welt, dann soll es jeweils um 90 Grad entgegen des Uhrzeiges rotieren. Dies erwies sich als sehr schwierig, da das Auto keine von uns programmierte Rotation durchgeführt hat. Nach einiger Zeit der Lösungssuche rotierten wir das Bild des Autos in GIMP und schrieben den Bewegungsbefehl des Autos an die letzte Stelle des Codes, hinter die Rotationsbefehle. Diese Kombination löste des Problem. Danach überabeiteten wir die Steuerung des Spielerfahrzeuges so, dass es sich nur nach links und rechts bewegen kann, wenn die Taste "w" oder "s" gleichzeitig gedrückt wird.
+Heute war die vorletzte Stunde vor der Vollendigung des Projektes. Da Joel an der morgigen letzten Stunde nicht teilnehmen kann, wollten wir möglichst viel schaffen, damit ich die morgige Stunde für letzte Verbesserungen im Code und dem Aussehen des Spiels nutzen kann. Folglich arbeiteten wir an Level 4. Unser Ziel war es, ein weiteres rotes Auto einzufügen, welches in der oberen linken Ecke spawnt und nach demselben Prinzip wie das grüne und blaue Auto funktioniert. Dazu übernahmen wir den Code des grünen Fahrzeuges. Erreicht das rote Auto nun die vorgegebenen Koordinaten in den Ecken der Welt, dann soll es jeweils um 90 Grad entgegen des Uhrzeigers rotieren. Dies erwies sich als sehr schwierig, da das Auto keine von uns programmierte Rotation durchgeführt hat. Nach einiger Zeit der Lösungssuche rotierten wir das Bild des Autos in GIMP und schrieben den Bewegungsbefehl des Autos an die letzte Stelle des Codes, hinter die Rotationsbefehle. Diese Kombination löste das Problem. Danach überabeiteten wir die Steuerung des Spielerfahrzeuges so, dass es sich nur nach links und rechts bewegen kann, wenn die Taste "w" oder "s" gleichzeitig gedrückt wird.
 Den Rest der Stunde haben wir das Bild des roten Autos in der Größe und im Aussehen an unser Level angepasst. 
 
 
