@@ -1,4 +1,8 @@
-### Schulprojekt: Park Me 
-|-----|
+### Park Me 
 
-Information
+
+#Information
+
+Dieses Schulprojekt wurde erschaffen von: 
+1. Joel Rosenberg
+2. Lasse Prühs
