@@ -9,8 +9,7 @@ Zeitraum: 08.2022-12.2022
 ## Inhaltsverzeichnis
 1. Der Beginn  
    - [Die Teammitglieder](https://github.com/juiceinlondon/Schulprojekt/blob/main/Projektseite.md#die-teammitglieder)
-   - [Unsere bisherigen Erfahrungen beim Programmieren](https://github.com/juiceinlondon/Schulprojekt/edit/main/Projektseite.md#unsere-bisherigen-erfahrungen-beim-programmieren)
-)
+   - [Unsere bisherigen Erfahrungen beim Programmieren]()
    - Die Ideenfindung
    - Benutzte Programme und Programmiersprachen  
 2. Das Spiel
