@@ -52,7 +52,11 @@ Zur Bearbeitung unserer Bilder (von Actor/Welt/Hintergrund etc.) nutzten wir das
 ### Was ist "Park Me"?  
 
 
-### Bestandteile des Spiels
+### Bestandteile des Spiels  
+
+
+
+## Eigene abschließende Bewertung
 
 
 
