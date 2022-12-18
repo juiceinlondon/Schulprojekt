@@ -6,7 +6,7 @@
 
 [1.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#17082022)
 [2.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#23082022)
-[3.Stunde]()
+[3.Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#24082022)
 [4.Stunde]()
 [5.Stunde]()
 [6.Stunde]()
