@@ -7,3 +7,8 @@ Zeitraum: 08.2022-12.2022
 
 
 ## Inhaltsverzeichnis
+1. Der Beginn  
+   - Die Teammitglieder
+   - Unsere bisherigen Erfahrungen beim Programmieren
+   - Die Ideenfindung
+   - Benutzte Programme und Programmiersprachen
