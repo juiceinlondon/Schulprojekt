@@ -8,4 +8,5 @@ Dieses Schulprojekt wurde erschaffen von:
 2. Lasse Prühs
  
 Unser Arbietsprotokoll und die Projektseite unseres Spiels sind im Folgenden nachzulesen:
-1. [Protokoll](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md)
+1. [Protokoll](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md) 
+2. [Projektseite]()
