@@ -3,7 +3,7 @@
 ### Park Me - Stundenprotokoll
 
 # Inhaltsverzeichnis
-| Stunde 1-11| Stunde 12-22|
+| Stunde |
 | -------------------------- |
 | [1. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#17082022)| [12. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#05102022)|
 | [2. Stunde](https://github.com/juiceinlondon/Schulprojekt/blob/main/Protokoll.md#23082022)|
