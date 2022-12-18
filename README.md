@@ -1,7 +1,7 @@
 ### Park Me 
 
 
-#Information
+# Information
 
 Dieses Schulprojekt wurde erschaffen von: 
 1. Joel Rosenberg
