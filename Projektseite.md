@@ -65,13 +65,42 @@ Das vierte, finale Level spielt auf diesem Parkplatz:
 
 In Level 1 befindet sich der Spieler auf einem freien Parkplatz. Der zu erreichende Parkplatz ist durch eine grüne, rechteckige Fläche markiert, welche wie folgt aussieht:  
 ![check](https://user-images.githubusercontent.com/111385267/208447566-d92604cd-ee17-4acc-850f-6a5ff782e901.png)  
-Allerdings ist befindet sich diese Fläche nicht bei jedem Neustart auf demselben Parkplatz. Im Folgenden ist der Code zu sehen, welcher den Checkpoint zufällig auf einem der Parkplätze spawnt:  
+Allerdings ist befindet sich diese Fläche nicht bei jedem Neustart auf demselben Parkplatz. Im Folgenden ist der Code zu sehen, welcher den Checkpoint zufällig auf einem der Parkplätze spawnt. Dies ist möglich, indem der Constructor die Differenz der x- und y-Koordinaten vom oberen linken Parkplatz zum Parkplatz rechts daneben und dem unteren linken Parkplatz mit einer zufälligen Zahl von 0-5 (in x-Richtung) und von 0-2 (in y-Richtung) multipliziert. Das selbe Prinzip wendeten wir bei allen weiteren Checkpoint an.   
 ```java
         int x = Greenfoot.getRandomNumber(5); 
         int y = Greenfoot.getRandomNumber(2); 
         
         addObject(new Checkpoint(), 218+123*(x), 403+183*(y-1));
-```
+```  
+Das einzige Hindernis in Level 1 ist ein grünes Auto, welches auf einer festgelegten Route um die Parkplätze herumfährt. Im Folgenden ist der Quellcode für dieses Auto nachzulesen:  
+```java
+move(1%3);
+        
+        if(isAtEdge())
+        {
+            turn(-45);
+        }
+        
+        if(getX() == 75 && getY() == 550)
+        {
+            setRotation(0);
+        }
+        
+        if(getX() == 850 && getY() == 550)
+        {
+            setRotation(-90);
+        }
+        
+        if(getX() == 850 && getY() == 80)
+        {
+            setRotation(-180);
+        }
+        
+        if(getX() == 75 && getY() == 80)
+        {
+            setRotation(-270);
+        }
+```  
 
 
 
