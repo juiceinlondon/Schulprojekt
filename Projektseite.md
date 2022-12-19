@@ -160,7 +160,7 @@ Im dritten Level steigert sich die Schwierigkeit erneut. Hier haben wir ein blau
 ![Level3](https://user-images.githubusercontent.com/111385267/208454739-eefa8569-62e9-4165-b890-b76c1412b9da.png)  
 
 Das letzte Level enthält den Krankenwagen, das grüne und blaue Auto und den Checkpoint. Außerdem befindet sich in der Mitte der Welt eine Barriere, welche als Grünfläche dargestellt ist. Diese darf der Spieler nicht berühren. Tut er dies, dann scheitert das Level und ein Abschleppwagen wird gespawnt. Dieser richtet sich anschließend auf den Krankenwagen aus und bewegt sich auf diesen zu. Berühren sich die Beiden, dann stoppt das Programm und das Spiel muss neugestartet werden. Außerdem spawnt auf dem Unfallwagen eine Rauchfahne und der Spieler wird mittels eines Textfeldes darüber informiert, dass ein Abschleppwagen gerufen wurde. Der selbe Vorgang wird bei jeder Kollision durch den Krankenwagen durchgeführt. Im Folgenden ist der Quellcode zur Kollision mit dem blauen Auto beispielhaft nachzulesen:  
-``` 
+``` java
 public void CheckCollisionBC()
     {
             Bluecar bluecar;
