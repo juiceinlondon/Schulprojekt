@@ -53,6 +53,7 @@ Zur Bearbeitung unserer Bilder (von Actor/Welt/Hintergrund etc.) nutzten wir das
 "Park Me" ist ein 2D Spiel, welches in der [Top-Down Perspektive](https://www.giantbomb.com/top-down-perspective/3015-788/) gespielt wird. Der Spieler steuert hier einen Krankenwagen. Dieser ist im Folgenden Bild dargestellt.  
 ![ambulance-n_Copy01](https://user-images.githubusercontent.com/111385267/208430268-16956322-7aa7-4497-9f44-773a795ab75c.png)  
 Die Aufgabe des Spielers ist es, diesen Krankenwagen in bestimmten Parkplätzen einzuparken. Diese Parkplätze sind durch grüne Checkpoints dargestellt. Während dem Ausführen dieser Aufgabe wird der Spieler von verschiedenen Objekten und anderen Fahrzeugen blockiert. Wenn der Spieler eine Kollision mit einem anderen Objekt/Fahrzeug verursacht, dann ist das Spiel gescheitert und muss neu gestartet werden.  
+Um möglichst viel Abwechslung zu bieten, hat unser Spiel vier verschiedene Level, welche sich jeweils in ihrem Schwierigkeitsgrad steigern.
 
 
 
