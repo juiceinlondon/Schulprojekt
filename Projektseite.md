@@ -182,7 +182,32 @@ public void CheckCollisionBC()
                    
     }
 ```  
+Ein weiteres Bestandteil ist das neue rote Auto. Dieses spawnt in der linken oberen Ecke und bewegt sich nach dem gleichen Prinzip wie das grüne und blaue Auto.  
 
+Schließt der Spieler dieses Level ab, dann erreicht er den "Winscreen" und hat das Spiel somit durchgespielt. Dabei ist der "Winscreen" als eigene Welt eingefügt und wird konstruiert, wenn der Spieler mittig auf dem Checkpoint einparkt. Nach diesem Prinzip funktioniert bei uns jedes Level. Dies bedeutet, dass der Spieler nur ein neues Level erreicht, wenn er so einparkt, dass x- und y-Koordinaten des Checkpoints und des Krankenwagens übereinstimmen. Ist dies der Fall, dann wird ein neues Level konstruiert.   
+```java
+ private void istGeparktLvl1()
+    {
+
+        Checkpoint cp = (Checkpoint) getOneIntersectingObject(Checkpoint.class);
+        if (cp!= null)
+        {
+            int cpx= cp.getX();
+            int cpy= cp.getY();
+            
+            if(Math.abs(getX()-cpx)<6 && Math.abs(getY()-cpy)<6 && ((Math.abs(getRotation()-90)<5) || Math.abs(getRotation()-270)<5) )
+            {
+            
+                //Greenfoot.stop();
+                Greenfoot.delay(30);
+                Greenfoot.setWorld(new Parkplätze2() );
+            }
+        }  
+
+        
+    }
+``` 
+Hier ist beispielhaft die Erzeugung des zweiten Levels dargestellt.
 
 
 
