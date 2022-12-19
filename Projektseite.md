@@ -26,7 +26,7 @@ Direkt zu Beginn des Informatikunterrichtes im August 2022 haben wir, Joel Rosen
 
 
 ### Unsere bisherigen Erfahrungen beim Programmieren
-In unserem Team war Joel derjenige, der zu Beginn die meisten Erfahrungen im Bereich des Programmierens mitbringen konnte. Im Privaten programmierte er bereits Bots auf der Plattform "Discord" und arbeitete an einem eigenen Spiel. Dies führte er in dem Programm "Unity" durch.
+In unserem Team war Joel derjenige, der zu Beginn die meisten Erfahrungen im Bereich des Programmierens mitbringen konnte. Im Privaten programmierte er bereits Bots auf der Plattform "Discord" und arbeitete an einem eigenen Spiel. Dies führte er in dem Programm "Unity" durch.  
 Lasse hatte ebenfalls grundlegende Kenntnisse. Diese konnte er im Rahmen des Enrichment-Programmes in der achten Klasse sammeln. In seinem belegten Kurs programmierte er verschiedene Dinge, wie Lichtmuster, auf einen Raspberry-Pie. Dieser wurde an einem Fahrrad angebracht, welches die Lichtmuster abspielte. Dieses Projekt konnte er leider nie vollenden, da der Kurs aufgrund von Krankheit des Lehrers nach wenigen Wochen aufgelöst wurde.  
 Trotz unsere verschiedenen Voraussetzungen waren wir von Anfang an sehr motiviert und freuten uns auf das, was wir in den nächsten Monaten erschaffen würden.  
 
