@@ -50,7 +50,7 @@ Zur Bearbeitung unserer Bilder (von Actor/Welt/Hintergrund etc.) nutzten wir das
 
 
 ### Was ist "Park Me"?  
-"Park Me" ist ein 2D Spiel, welches in der [Top-Down Perspektive](https://www.giantbomb.com/top-down-perspective/3015-788/) gespielt wird.
+"Park Me" ist ein 2D Spiel, welches in der [Top-Down Perspektive](https://www.giantbomb.com/top-down-perspective/3015-788/) gespielt wird. Der Spieler steuert hier einen Krankenwagen.
 
 
 ### Bestandteile des Spiels  
