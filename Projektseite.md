@@ -101,7 +101,11 @@ move(1%3);
             setRotation(-270);
         }
 ```  
-Wie hier zu erkennen ist, bewegt sich das Auto dauerhaft auf einer Linie weiter, bis es genau bestimmte Punkte in den Ecken der Welt erreicht. An diesen Ecken ändert es seine Fahrtrichtung, sodass sich das Auto auf der Bahn eines geschlossenen Rechtecks bewegt. 
+Wie hier zu erkennen ist, bewegt sich das Auto dauerhaft auf einer Linie weiter, bis es genau bestimmte Punkte in den Ecken der Welt erreicht. An diesen Ecken ändert es seine Fahrtrichtung, sodass sich das Auto auf der Bahn eines geschlossenen Rechtecks bewegt. Damit sieht das erste Level wie folgt aus:   
+![Level1](https://user-images.githubusercontent.com/111385267/208451276-33df0413-06d4-4b8c-8fd7-d58c1d11167d.png)
+
+In Level 2 kommt lediglich ein gelbes Auto hinzu, welches nach dem selben Prinzip wie die Checkpoints zufällig auf einem der Parkplätze spawnt und somit die Schwierigkeit für den Spieler erhöht. Dabei prüft der Constructor außerdem, ob der Checkpoint bereits auf dieser Koordinate platziert wurde. Ist dies der Fall, dann wird ein neuer Parkplatz zufällig generiert.
+
 
 
 
