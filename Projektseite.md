@@ -153,7 +153,15 @@ Die Steuerung des Krankenwagens funktioniert bei uns nach dem von [Dennis "Thres
         }  
 ``` 
 
-In Level 2 kommt lediglich ein gelbes Auto hinzu, welches nach dem selben Prinzip wie die Checkpoints zufällig auf einem der Parkplätze spawnt und somit die Schwierigkeit für den Spieler erhöht. Dabei prüft der Constructor außerdem, ob der Checkpoint bereits auf dieser Koordinate platziert wurde. Ist dies der Fall, dann wird ein neuer Parkplatz zufällig generiert.  
+In Level 2 kommt lediglich ein gelbes Auto hinzu, welches nach dem selben Prinzip wie die Checkpoints zufällig auf einem der Parkplätze spawnt und somit die Schwierigkeit für den Spieler erhöht. Dabei prüft der Constructor außerdem, ob der Checkpoint bereits auf dieser Koordinate platziert wurde. Ist dies der Fall, dann wird ein neuer Parkplatz zufällig generiert, sodass das Level schlussendlich potentiell wie folgt aussehen kann:  
+![Level2](https://user-images.githubusercontent.com/111385267/208452998-a75d543e-e099-494e-8a2d-04bb4cfb1bd9.png)  
+
+Im dritten Level steigert sich die Schwierigkeit erneut. Hier haben wir ein blaues Fahrzeug hinzugefügt, welches in der oberen rechten Ecke spawnt und nach demselben Prinzip wie das grüne Auto um den Parkplatz herumfährt. Außerdem befindet sich auf dem Parkplatz ein rotes Auto. Diese funktioniert wie das gelbe Auto. Allerdings prüft der Constructor außerdem, ob der Parkplatz bereits durch das gelbe Auto belegt wird. Gegebenenfalls sucht er dann einen neuen Parkplatz. Im folgenden ist nun ein potentielles Level 3 zu erkennen:  
+![Level3](https://user-images.githubusercontent.com/111385267/208454739-eefa8569-62e9-4165-b890-b76c1412b9da.png)
+
+
+
+
 
 
 
