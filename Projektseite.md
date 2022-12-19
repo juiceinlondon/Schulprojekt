@@ -28,13 +28,13 @@ Direkt zu Beginn des Informatikunterrichtes im August 2022 haben wir, Joel Rosen
 ### Unsere bisherigen Erfahrungen beim Programmieren
 In unserem Team war Joel derjenige, der zu Beginn die meisten Erfahrungen im Bereich des Programmierens mitbringen konnte. Im Privaten programmierte er bereits Bots auf der Plattform "Discord" und arbeitete an einem eigenen Spiel. Dies führte er in dem Programm "Unity" durch.  
 Lasse hatte ebenfalls grundlegende Kenntnisse. Diese konnte er im Rahmen des Enrichment-Programmes in der achten Klasse sammeln. In seinem belegten Kurs programmierte er verschiedene Dinge, wie Lichtmuster, auf einen Raspberry-Pie. Dieser wurde an einem Fahrrad angebracht, welches die Lichtmuster abspielte. Dieses Projekt konnte er leider nie vollenden, da der Kurs aufgrund von Krankheit des Lehrers nach wenigen Wochen aufgelöst wurde.  
-Trotz unsere verschiedenen Voraussetzungen waren wir von Anfang an sehr motiviert und freuten uns auf das, was wir in den nächsten Monaten erschaffen würden.  
+Trotz unserer verschiedenen Voraussetzungen waren wir von Anfang an sehr motiviert und freuten uns auf das, was wir in den nächsten Monaten erschaffen würden.  
 
 
 ### Die Ideenfindung
-Von der ersten Stunde an waren wir uns einig, dass wir ein Spiel programmieren wollen. Dies ist auf unser gemeinsames Interesse an Online-Spielen zurückzuführen. Anschließend überlegten wir uns, was für eine Art Spiel wir programmieren wollen. Dabei dachten wir zunächst an ein klassisches 2D-Spiel aus dem Jump&Run-Bereich, welches ähnlich wie Super Mario aufgebaut sein soll. Allerdings wollten wir auch Elemente aus dem Escaperoom-Genre in unser Spiel integrieren. Um diese Idee umzusetzen, schlug Joel das Programm "Unity" vor, da er hier bereits positive Erfahrungen sammeln konnte.  
+Von der ersten Stunde an waren wir uns einig, dass wir ein Spiel programmieren wollen. Dies ist auf unser gemeinsames Interesse an Online-Spielen zurückzuführen. Anschließend überlegten wir uns, was für eine Art Spiel wir programmieren wollen. Dabei dachten wir zunächst an ein klassisches 2D-Spiel aus dem Jump&Run-Bereich, welches ähnlich wie Super Mario aufgebaut sein soll. Allerdings wollten wir auch Elemente aus dem Escape Room-Genre in unser Spiel integrieren. Um diese Idee umzusetzen, schlug Joel das Programm "Unity" vor, da er hier bereits positive Erfahrungen sammeln konnte.  
 Auf den Schulcomputern ist dieses Programm allerdings nicht installiert, weshalb wir uns anschließend nach neuen Möglichkeiten und Ideen umgesehen haben.  
-Dabei kamen wir schnell auf die Idee eines Spiels, in dem der Spieler ein Auto steuert. Auf diese Idee kamen wir, da wir in unser Freizeit gemeinsam ein Spiel spielen, welches primär mit Autos zu tun hat. Nach einigen Überlegungen, was dieses Auto nun tun soll, legten wir fest, dass man es in verschiedenen WElten einparken muss.  
+Dabei kamen wir schnell auf die Idee eines Spiels, in dem der Spieler ein Auto steuert. Auf diese Idee kamen wir, da wir in unserer Freizeit gemeinsam ein Spiel spielen, welches primär mit Autos zu tun hat. Nach einigen Überlegungen, was dieses Auto nun tun soll, legten wir fest, dass man es in verschiedenen Welten einparken muss.  
 Dieser Spielidee gaben wir den einfachen und prägnanten Namen: "Park Me"  
 Damit war unser Projekt "Park Me" geboren und die Arbeit konnte beginnen.  
 
