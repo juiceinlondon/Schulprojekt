@@ -58,10 +58,15 @@ Um möglichst viel Abwechslung zu bieten, hat unser Spiel vier verschiedene Leve
 
 
 ### Bestandteile des Spiels  
-In unserem Spiel haben wir, wie bereits erwähnt vier Level. Die ersten drei Level finden auf dem folgenden Parkplatz statt:   
+In unserem Spiel haben wir, wie bereits erwähnt, vier Level. Die ersten drei Level finden auf dem folgenden Parkplatz statt:   
 ![Parkplatz-Prototyp](https://user-images.githubusercontent.com/111385267/208446486-6d6377b9-92b4-4659-8712-3fb1ed7deace.png)  
 Das vierte, finale Level spielt auf diesem Parkplatz:  
 ![Download](https://user-images.githubusercontent.com/111385267/208446800-87319c14-2982-45d4-951f-0570436972f1.png)  
+
+In Level 1 befindet sich der Spieler auf einem freien Parkplatz. Der zu erreichende Parkplatz ist durch eine grüne, rechteckige Fläche markiert, welche wie folgt aussieht:  
+![check](https://user-images.githubusercontent.com/111385267/208447566-d92604cd-ee17-4acc-850f-6a5ff782e901.png)
+
+
 
 
 
