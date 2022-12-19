@@ -102,9 +102,60 @@ move(1%3);
         }
 ```  
 Wie hier zu erkennen ist, bewegt sich das Auto dauerhaft auf einer Linie weiter, bis es genau bestimmte Punkte in den Ecken der Welt erreicht. An diesen Ecken ändert es seine Fahrtrichtung, sodass sich das Auto auf der Bahn eines geschlossenen Rechtecks bewegt. Damit sieht das erste Level wie folgt aus:   
-![Level1](https://user-images.githubusercontent.com/111385267/208451276-33df0413-06d4-4b8c-8fd7-d58c1d11167d.png)
+![Level1](https://user-images.githubusercontent.com/111385267/208451276-33df0413-06d4-4b8c-8fd7-d58c1d11167d.png)  
+Die Steuerung des Krankenwagens funktioniert bei uns nach dem von [Dennis "Thresh" Fong](https://www.pcgameshardware.de/Spiele-Entwicklung-Thema-35261/News/WASD-Geschichte-1199800/) etablierten Layout: W,A,S,D. Der Quelltext der Steuerung ist im Folgenden dargestellt:  
+ ``` java
+ private void steuerung()
+    {
+                
+        if(getX() == 850 && getY() == 450)
+        {
+            setRotation(-90);
+        }
+        
+        
+        if (Greenfoot.isKeyDown("a"))
+        {
+            if (Greenfoot.isKeyDown("w"))
+                {
+                    turn(-2);
+                }
+                
+            if (Greenfoot.isKeyDown("s"))
+                {
+                    turn(-2);
+                } 
+        }
 
-In Level 2 kommt lediglich ein gelbes Auto hinzu, welches nach dem selben Prinzip wie die Checkpoints zufällig auf einem der Parkplätze spawnt und somit die Schwierigkeit für den Spieler erhöht. Dabei prüft der Constructor außerdem, ob der Checkpoint bereits auf dieser Koordinate platziert wurde. Ist dies der Fall, dann wird ein neuer Parkplatz zufällig generiert.
+        
+        if (Greenfoot.isKeyDown("d"))
+        {
+            if (Greenfoot.isKeyDown("w"))
+                {
+                    turn(2);
+                }
+            
+            if (Greenfoot.isKeyDown("s"))
+                {
+                    turn(2);
+                }  
+        }
+        
+        if (Greenfoot.isKeyDown("w"))
+        {
+            move(2);
+            
+        }
+        
+        if (Greenfoot.isKeyDown("s"))
+        {
+            move(-2);
+        }  
+``` 
+
+In Level 2 kommt lediglich ein gelbes Auto hinzu, welches nach dem selben Prinzip wie die Checkpoints zufällig auf einem der Parkplätze spawnt und somit die Schwierigkeit für den Spieler erhöht. Dabei prüft der Constructor außerdem, ob der Checkpoint bereits auf dieser Koordinate platziert wurde. Ist dies der Fall, dann wird ein neuer Parkplatz zufällig generiert.  
+
+
 
 
 
