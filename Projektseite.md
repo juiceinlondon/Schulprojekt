@@ -101,6 +101,7 @@ move(1%3);
             setRotation(-270);
         }
 ```  
+Wie hier zu erkennen ist, bewegt sich das Auto dauerhaft auf einer Linie weiter, bis es genau bestimmte Punkte in den Ecken der Welt erreicht. An diesen Ecken ändert es seine Fahrtrichtung, sodass sich das Auto auf der Bahn eines geschlossenen Rechtecks bewegt. 
 
 
 
