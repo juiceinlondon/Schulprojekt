@@ -156,8 +156,36 @@ Die Steuerung des Krankenwagens funktioniert bei uns nach dem von [Dennis "Thres
 In Level 2 kommt lediglich ein gelbes Auto hinzu, welches nach dem selben Prinzip wie die Checkpoints zufällig auf einem der Parkplätze spawnt und somit die Schwierigkeit für den Spieler erhöht. Dabei prüft der Constructor außerdem, ob der Checkpoint bereits auf dieser Koordinate platziert wurde. Ist dies der Fall, dann wird ein neuer Parkplatz zufällig generiert, sodass das Level schlussendlich potentiell wie folgt aussehen kann:  
 ![Level2](https://user-images.githubusercontent.com/111385267/208452998-a75d543e-e099-494e-8a2d-04bb4cfb1bd9.png)  
 
-Im dritten Level steigert sich die Schwierigkeit erneut. Hier haben wir ein blaues Fahrzeug hinzugefügt, welches in der oberen rechten Ecke spawnt und nach demselben Prinzip wie das grüne Auto um den Parkplatz herumfährt. Außerdem befindet sich auf dem Parkplatz ein rotes Auto. Diese funktioniert wie das gelbe Auto. Allerdings prüft der Constructor außerdem, ob der Parkplatz bereits durch das gelbe Auto belegt wird. Gegebenenfalls sucht er dann einen neuen Parkplatz. Im folgenden ist nun ein potentielles Level 3 zu erkennen:  
-![Level3](https://user-images.githubusercontent.com/111385267/208454739-eefa8569-62e9-4165-b890-b76c1412b9da.png)
+Im dritten Level steigert sich die Schwierigkeit erneut. Hier haben wir ein blaues Fahrzeug hinzugefügt, welches in der oberen rechten Ecke spawnt und nach demselben Prinzip wie das grüne Auto um den Parkplatz herumfährt. Außerdem befindet sich auf dem Parkplatz ein rotes Auto. Diese funktioniert wie das gelbe Auto. Allerdings prüft der Constructor außerdem, ob der Parkplatz bereits durch das gelbe Auto belegt wird. Gegebenenfalls sucht er dann einen neuen Parkplatz. Im Folgenden ist nun ein potentielles Level 3 zu erkennen:  
+![Level3](https://user-images.githubusercontent.com/111385267/208454739-eefa8569-62e9-4165-b890-b76c1412b9da.png)  
+
+Das letzte Level enthält den Krankenwagen, das grüne und blaue Auto und den Checkpoint. Außerdem befindet sich in der Mitte der Welt eine Barriere, welche als Grünfläche dargestellt ist. Diese darf der Spieler nicht berühren. Tut er dies, dann scheitert das Level und ein Abschleppwagen wird gespawnt. Dieser richtet sich anschließend auf den Krankenwagen aus und bewegt sich auf diesen zu. Berühren sich die Beiden, dann stoppt das Programm und das Spiel muss neugestartet werden. Außerdem spawnt auf dem Unfallwagen eine Rauchfahne und der Spieler wird mittels eines Textfeldes darüber informiert, dass ein Abschleppwagen gerufen wurde. Der selbe Vorgang wird bei jeder Kollision durch den Krankenwagen durchgeführt. Im Folgenden ist der Quellcode zur Kollision mit dem blauen Auto beispielhaft nachzulesen:  
+``` 
+public void CheckCollisionBC()
+    {
+            Bluecar bluecar;
+            bluecar = (Bluecar) getOneIntersectingObject(Bluecar.class);
+            
+            if(bluecar != null && ! towTruckIsSpawned)
+            {
+                // System.out.println("GAME OVER!");
+                Towtruck truck = new Towtruck(this);
+                getWorld().addObject(truck, 218, 220);
+                truck.setRotation(90);
+                
+                getWorld().addObject(new Boom(), getX(), getY());
+                getWorld().addObject(new Endscreen(), 461, 313);
+                
+                towTruckIsSpawned = true;
+                
+                if (towTruckIsSpawned)
+                {
+                    bluecar.move(0);   
+                }
+             }   
+                   
+    }
+``` 
 
 
 
