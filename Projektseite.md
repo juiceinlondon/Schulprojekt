@@ -211,22 +211,10 @@ Hier ist beispielhaft die Erzeugung des zweiten Levels dargestellt. Das finale L
 ![Level4](https://user-images.githubusercontent.com/111385267/208460379-d7163100-e555-429d-afe9-3989aea1d6d5.png)  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Eigene abschließende Bewertung
-
+Nach unserer viermonatigen Arbeit an unserem Spiel "Park Me" lässt sich zusammenfassend sagen, dass wir sehr zufrieden mit dem Resultat sind. Wir haben nicht nur ein Spiel mit mehreren Leveln und vielen Komponenten erschaffen, sondern auch persönlich Einiges gelernt. Wir hatten beide vor dem Beginn des Informatikunterrichts keine Erfahrung mit der Programmiersprache Java. Dies konnten wir durch unsere Arbeit definitiv ändern, sodass wir nun ein grundlegendes Wissen über Java haben. Unsere Arbeitsphasen liefen zum größten Teil sehr produktiv ab und aufgetretene Fehler konnten, teils durch die Hilfe von Herrn Buhl, behoben werden. Leider waren wir beide des öfteren Krank, sodass einer von uns manchmal alleine arbeiten musste. Trotzdessen hatte jeder von uns immer etwas zu tun und hat stets konzentriert an unserem Spiel weitergearbeitet.  
+Der Informatikunterricht hat uns in diesen vier Monaten sehr viel Spaß gemacht. Er bot uns eine neue und unbekannte Abwechslung in unserem Schulalltag. Zudem konnten wir mit diesem Fach persönlich viel verbinden, da es private Interessen unsererseits direkt angesprochen hat.  
+Für die kommende zweite Hälfte des Schuljahres haben wir bereits überlegt, ein neues Projekt im Breich des [Physical Computing](https://de.wikipedia.org/wiki/Physical_Computing) zu beginnen. Genauere Ideen haben wir hierfür allerdings noch nicht entwickelt, was allerdings im Laufe der anstehenden Weihnachtsferien geschehen soll. 
 
 
 
