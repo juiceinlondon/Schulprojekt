@@ -65,7 +65,13 @@ Das vierte, finale Level spielt auf diesem Parkplatz:
 
 In Level 1 befindet sich der Spieler auf einem freien Parkplatz. Der zu erreichende Parkplatz ist durch eine grüne, rechteckige Fläche markiert, welche wie folgt aussieht:  
 ![check](https://user-images.githubusercontent.com/111385267/208447566-d92604cd-ee17-4acc-850f-6a5ff782e901.png)  
-Allerdings ist befindet sich diese Fläche nicht bei jedem Neustart auf demselben Parkplatz. Im Folgenden ist der Code zu sehen, welcher den Checkpoint zufällig auf einem der Parkplätze spawnt:
+Allerdings ist befindet sich diese Fläche nicht bei jedem Neustart auf demselben Parkplatz. Im Folgenden ist der Code zu sehen, welcher den Checkpoint zufällig auf einem der Parkplätze spawnt:  
+```java
+        int x = Greenfoot.getRandomNumber(5); 
+        int y = Greenfoot.getRandomNumber(2); 
+        
+        addObject(new Checkpoint(), 218+123*(x), 403+183*(y-1));
+```
 
 
 
