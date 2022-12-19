@@ -42,7 +42,7 @@ Damit war unser Projekt "Park Me" geboren und die Arbeit konnte beginnen.
 ### Benutzte Programme und Programmiersprachen
 Zur Umsetzung wählten wir das kostenlose und leicht zu erlernende Programm "Greenfoot", was primär durch die Auswahl an Programmen auf den Schulcomputern bedingt war.
 Da "Greenfoot" die Programmiersprache Java verwendet, mussten wir uns mit dieser erst genauer befassen. Weder Joel, noch Lasse hatten bereits mit Java gearbeitet. Zum Erlernen gab uns Herr Buhl ein Einführungsbuch über "Greenfoot", welches wir in den ersten Wochen öfters benutzten. Außerdem nutzten wir das ["Greenfoot API"](https://www.greenfoot.org/files/javadoc/) (Application Programming Interface). Dies half uns in vielen Situationen, die Arbeitsweise und Sprache von "Greenfoot" zu verstehen.  
-Zur Bearbeitung unserer Bilder (von Actor/Welt/Hintergrund etc.) nutzten wir das kostenlose Programm ["GIMP"](https://www.gimp.org/), welches ebenfalls bereits auf dem Computer installiert war. Die Arbeit in diesem Programm bestand primär darin, die verschiedenen Bilder in ihrer Größe und Rotation zu verändern. Außerdem schnitten wir die Bilder aus, da jedes Bild im Vorfeld von einem weißen Rand umzogen war.  
+Zur Bearbeitung unserer Bilder (von Actor/Welt/Hintergrund etc.) nutzten wir das kostenlose Programm ["GIMP"](https://www.gimp.org/), welches ebenfalls bereits auf dem Computer installiert war. Die Arbeit in diesem Programm bestand primär darin, die verschiedenen Bilder in ihrer Größe und Rotation zu verändern. Außerdem schnitten wir die Bilder aus, da jedes Bild im Vorfeld von einem weißen Rand umzogen war, welcher optisch nicht in unser Spiel passte.  
 
 
 
